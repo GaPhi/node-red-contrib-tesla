@@ -35,14 +35,16 @@
   "bugs": {
     "url": "https://github.com/GaPhi/node-red-contrib-tesla/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Philippe Gresse-Lugue"
+    },
+    {
+      "name": "Bart Vanlier"
     }
   ],
   "dependencies": {
-    "@gaphi/teslajs": "^4.11.0-1",
+    "@gaphi/teslajs": "^4.11.0-8",
     "axios": "^1.6.2"
   },
   "deprecated": false,
@@ -67,5 +69,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.0.1-10"
+  "version": "2.0.1-11"
 }
